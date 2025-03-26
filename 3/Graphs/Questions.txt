@@ -1,0 +1,19 @@
+leetcode 547(no of connected components) 841 1971 200 785 
+207(cycle detection) 210 
+1584(min spanning tree)
+743(dijkstra algo)(balman Ford algorithm tc(V*E))1514 1631 
+
+Manachar Algorithm lc5
+
+cycle detection using bfs or dfs 
+any acyclic graph is a bipartite graph 
+cyclic graph with even cyclic length is bipartite
+topological sort
+
+
+prims algo: undirected weighted graph st for n nodes there should be n-1 edges
+in this we try to remove max weight edges to make that min spanning tree
+
+Shortest Dist: Bellman FOrd algo and Dijkstra 
+Bellman Ford: directed adv is -ve cycle detect kr deta. In this we have to from edge list for finding -ve cycle n-1 tk loop chalao uske bad ik aur looopp chalao agar dist kam hua then -ve cycle aaa usmei
+Dijkstra: directed , undirected In this we have to from adj list
