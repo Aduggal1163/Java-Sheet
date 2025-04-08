@@ -6,7 +6,7 @@ public class HeapSort {
             int left=2*i+1;
             int right=2*i+2;
             int largest=i;
-            if(left < n && arr[left]>arr[larget])
+            if(left < n && arr[left]>arr[largest])
             {
                 largest=left;
             }
@@ -23,7 +23,7 @@ public class HeapSort {
             }
         }
     public static void sort(int arr[], int n){
-        for(int i=n/2-1;i>=0;i--)
+        for(int i=n/2-1;i>=0;i--) // from last leafnode
         {
             heapify(arr,n,i);
         }
@@ -38,7 +38,8 @@ public class HeapSort {
     public static void main(String[] args) {
         int arr[]={1,2,3,6,5,4};
     int n = arr.length;
-    HeapSort hs=new HeapSort();
-    hs.sort(arr,n);
+    // HeapSort hs=new HeapSort();
+    sort(arr,n);
+    for(int elt : arr) System.out.print(elt + " ");
     }
 }
