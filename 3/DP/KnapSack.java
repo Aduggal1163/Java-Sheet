@@ -1,4 +1,5 @@
 class KnapSack{
+    // 0-1 knapsack
     public static int profit(int idx, int[] val, int[] wt, int c, int[][] dp)
     {
         if(idx==val.length) return 0;
