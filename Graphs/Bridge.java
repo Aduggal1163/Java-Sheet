@@ -24,6 +24,7 @@ public class Bridge {
             }
         }
     }
+    
     public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
         List<List<Integer>> adj = new ArrayList<>();
         for(int i=0;i<n;i++) adj.add(new ArrayList<>());
