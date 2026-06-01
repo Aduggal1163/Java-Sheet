@@ -1,5 +1,4 @@
-/*
-class Node
+public class Node
 {
     int data, height;
     Node left, right;
@@ -7,10 +6,10 @@ class Node
     {
         data = x;
         height = 1;
-        left = right = NULL;
+        left = right = null;
     }
 }
-*/
+
 class Sol {
     
     public static int getHeight(Node root) {
